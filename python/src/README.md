@@ -1,7 +1,7 @@
 # 概要
 - LOTO6の当選番号のデータをスクレイピング
 
-## ライブラリ：パッケージ
+## 使用ライブラリ：パッケージ
 ## urllib 
 - https://docs.python.org/ja/3.7/howto/urllib2.html
 
@@ -23,9 +23,12 @@
 - 0461-0480回 : https://www.mizuhobank.co.jp/retail/takarakuji/check/loto/backnumber/detail.html?fromto=461_480&type=loto6
 - ...
 - 1521-1530回 : https://www.mizuhobank.co.jp/retail/takarakuji/check/loto/backnumber/detail.html?fromto=1521_1530&type=loto6
+- ...
+- 1641-1651回 : https://www.mizuhobank.co.jp/retail/takarakuji/check/loto/backnumber/detail.html?fromto=1641_1651&type=loto6
 
 ### 備考
-- 2021.11.18 時点では、過去は、1530回まで（最新はまた別ページ）
+- 2023.01.26 時点では、過去は、1530回まで（最新はまた別ページ）
+
 
 # 参考にしたサイト
 ## 今更Webスクレイピングを試してロト６のデータを取得

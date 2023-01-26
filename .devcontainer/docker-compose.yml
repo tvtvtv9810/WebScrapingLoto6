@@ -2,12 +2,18 @@ version: '3.2'
     
 services:
   python:
-    image: dev_python/python:1.0
+    # ベースイメージ/ビルドイメージ名:
+    image: image_dev_python/python:1.0
+    # Dockerfile のあるディレクトリのパス
     build: ./python
-    container_name: 'dev_python_container'
+    # コンテナ名
+    container_name: 'python_dev_loto'
+    # 標準入力の受付
     stdin_open: true
+    # 疑似TTY端末の割当
     tty: true
     working_dir: '/tmp/work'
+    # ボリュームのマウント:名前付きボリューム
     volumes:
       - ../python:/tmp/work
   
